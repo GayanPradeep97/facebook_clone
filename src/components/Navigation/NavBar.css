@@ -5,38 +5,61 @@
 }
 .navbarbox{
     display: flex;
-    background-color: aqua;
+    background-color: #3b5998;
     width: 100%;
     height: 50px;
     justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
 }
 .navbarleft{
     display: flex;
-    justify-content: center;
+    flex: 4;
+    justify-content: start;
     align-items: center;
     margin-left: 10px;
 }
 .logo{
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
 }
 .navbarcenter{
     display: flex;
-    justify-content: center;
+    flex: 3;
+    justify-content: start;
     align-items: center;
 }
-.searchIcon{
+.searchbarbox{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 500px;
+    height: 30px;
     position: relative;
-    top: 8px;
-    justify-content: space-between;
-    margin-right: 10px;
+    top: 2px;
+    border-radius: 20px;
+    background-color:white;
 }
+.searchIcon{
+   margin-top: 3px;
+    margin-left: 10px;
+}
+.searchbarbox input{
+    border: none;
+    width: 80%;
+    outline: none;
+}
+
 /* .navbarright{
     display: flex;
     
 } */
 .navbarright{
     display: flex;
-    justify-content: center;
+    flex: 5;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -48,6 +71,9 @@
 }
 .navbarlinks ul li a{
     text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 25px
 }
 .navbaricons{
     display: flex;
@@ -55,6 +81,16 @@
 }
 .navbaricon{
     margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+.navbaricon span{
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;   
 }
 .pic{
     width: 40px;
