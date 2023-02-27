@@ -1,10 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
 }
 .postflan{
-    display: flex;
-    flex: 5;
-    background-color: aqua;
+    flex: 6;
+    height: calc(100vh - 50px);
+    overflow-y: scroll;
+   
 }
