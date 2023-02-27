@@ -2,6 +2,22 @@ import React from 'react'
 import './RightFlane.css'
 
 function RightFlane() {
+  
+const Onlinestatus = () => {
+  return(
+    <div className="friendlist">
+          <li className="onlinefrind">
+            <div className="onlineriendcontainer">
+              <img src="./images/person.jpg" alt="person" className="onlinefriendimg" />
+              <span className="onlinestatus"></span>
+            </div>
+            <span className="onlinefriendname">Gayani sankalpana</span>
+          </li>
+        </div>
+  )
+}
+
+
   return (
     <div className='rightflanbox'>
       <div className="rightflancontainer">
@@ -18,60 +34,13 @@ function RightFlane() {
            <b> Kasun gayantha</b> and <b>two othres</b> having birthda today
           </span>
         </div>
-        <div className="friendlist">
-          <li className="onlinefrind">
-            <div className="onlineriendcontainer">
-              <img src="./images/person.jpg" alt="person" className="onlinefriendimg" />
-              <span className="onlinestatus"></span>
-            </div>
-            <span className="onlinefriendname">Gayani sankalpana</span>
-          </li>
-        </div>
-        <div className="friendlist">
-          <li className="onlinefrind">
-            <div className="onlineriendcontainer">
-              <img src="./images/person.jpg" alt="person" className="onlinefriendimg" />
-              <span className="onlinestatus"></span>
-            </div>
-            <span className="onlinefriendname">Gayani sankalpana</span>
-          </li>
-        </div>
-        <div className="friendlist">
-          <li className="onlinefrind">
-            <div className="onlineriendcontainer">
-              <img src="./images/person.jpg" alt="person" className="onlinefriendimg" />
-              <span className="onlinestatus"></span>
-            </div>
-            <span className="onlinefriendname">Gayani sankalpana</span>
-          </li>
-        </div>
-        <div className="friendlist">
-          <li className="onlinefrind">
-            <div className="onlineriendcontainer">
-              <img src="./images/person.jpg" alt="person" className="onlinefriendimg" />
-              <span className="onlinestatus"></span>
-            </div>
-            <span className="onlinefriendname">Gayani sankalpana</span>
-          </li>
-        </div>
-        <div className="friendlist">
-          <li className="onlinefrind">
-            <div className="onlineriendcontainer">
-              <img src="./images/person.jpg" alt="person" className="onlinefriendimg" />
-              <span className="onlinestatus"></span>
-            </div>
-            <span className="onlinefriendname">Gayani sankalpana</span>
-          </li>
-        </div>
-        <div className="friendlist">
-          <li className="onlinefrind">
-            <div className="onlineriendcontainer">
-              <img src="./images/person.jpg" alt="person" className="onlinefriendimg" />
-              <span className="onlinestatus"></span>
-            </div>
-            <span className="onlinefriendname">Gayani sankalpana</span>
-          </li>
-        </div>
+        
+        <Onlinestatus/>
+        <Onlinestatus/>
+        <Onlinestatus/>
+        <Onlinestatus/>
+        <Onlinestatus/>
+        <Onlinestatus/>
       </div>
     </div>
   )
