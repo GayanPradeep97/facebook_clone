@@ -1,8 +1,9 @@
 import React from 'react'
+import './PostFlan.css'
 
 function PostFlan() {
   return (
-    <div>PostFlan</div>
+    <div className='postflan'>PostFlan</div>
   )
 }
 

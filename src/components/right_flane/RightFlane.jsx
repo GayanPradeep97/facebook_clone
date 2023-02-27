@@ -1,8 +1,9 @@
 import React from 'react'
+import './RightFlane.css'
 
 function RightFlane() {
   return (
-    <div>RightFlane</div>
+    <div className='rightflan'>RightFlane</div>
   )
 }
 

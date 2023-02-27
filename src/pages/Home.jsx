@@ -1,4 +1,5 @@
 import React from 'react'
+import './Home.css'
 import LeftFlan from '../components/left_flane/LeftFlan'
 import NavBar from '../components/Navigation/NavBar'
 import PostFlan from '../components/post _flane/PostFlan'
